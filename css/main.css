@@ -44,3 +44,26 @@
 	margin: 30px auto;
 	border:none;
 }
+
+
+.banner{
+	height: 450px;
+	background: url("../images/banner.png");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.tagline{
+	margin-top:150px;
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.caption{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	opacity: 0.8;
+}
