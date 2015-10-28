@@ -1,8 +1,11 @@
 body{
 	background-color: #fafafa;
+	font: 17px/1.7 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	color: #555;
 }
 *{
 	margin: 0;
+	box-sizing:border-box;
 }
 
 
@@ -13,8 +16,38 @@ body{
 
 .wrapper{
 	width: 960px;
-	height: 700px;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.4);
-	margin: 0 auto;
+	margin: 10px auto;
 	background-color: #fff;
+	padding: 30px;
+}
+
+.wrapper .title{
+	font-weight: normal;
+	color: #eb3170;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.wrapper p{
+	text-indent: 2em;
+}
+
+.wrapper img{
+	max-width: 960px;
+	display: block;
+	margin: 30px auto;
+	border:none;
+}
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+			
+}
+.clearfix:after{
+	clear: both;
+}
+
+.clearfix{
+	zoom:1;
 }
