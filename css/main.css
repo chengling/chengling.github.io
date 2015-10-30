@@ -137,4 +137,25 @@
 	font-weight: normal;	
 }
 
+.detail-a{
+	display: block;
+	position: relative;
+
+}
+
+.detail-a:before{
+	content: "";
+	display:block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #000;
+	top:0;
+	left: 0;
+	opacity: 0;
+	transition:opacity 1s;
+}
+.detail-a:hover:before{
+	opacity: 0.5;
+}
 
