@@ -58,7 +58,6 @@
 	margin-right: 17px;
 }
 .blog-wrapper{
-	width: 960px;
 	box-shadow: 0 2px 5px rgba(0,0,0,0.4);
 	margin: 30px auto;
 	padding: 30px;
@@ -76,7 +75,7 @@
 }
 
 .blog-wrapper img{
-	max-width: 100%;
+	width: 100%;
 	display: block;
 	margin: 30px auto;
 	border:none;
