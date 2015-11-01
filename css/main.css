@@ -76,7 +76,7 @@
 }
 
 .blog-wrapper img{
-	max-width: 960px;
+	max-width: 100%;
 	display: block;
 	margin: 30px auto;
 	border:none;
