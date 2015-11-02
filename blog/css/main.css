@@ -26,17 +26,14 @@
 
 .main li .title{
 	color:#fff;
-	width: 50%;
 }
 
 .main li .author{
 	color:#b3b3b3;
 	font-size: 13px;
-	width: 50%;
 }
 
-.main li span{
-	display: inline-block;
-	float: right;
-	width: 20%;
+.footer{
+	background-color: black;
+	height: 200px;
 }
