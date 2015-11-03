@@ -20,6 +20,7 @@
 
 .main li{
 	text-align: left;
+	margin-left: 5%；
 	border-bottom: 1px solid #999;
 	height: 55px;
 }
