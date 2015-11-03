@@ -20,18 +20,20 @@
 
 .main li{
 	text-align: left;
-	margin-left: 5%；
 	border-bottom: 1px solid #999;
 	height: 55px;
 }
 
 .main li .title{
 	color:#fff;
+	padding-left: 5%;
 }
 
 .main li .author{
 	color:#b3b3b3;
 	font-size: 13px;
+		padding-left: 5%;
+
 }
 
 .footer{
