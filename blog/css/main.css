@@ -35,5 +35,13 @@
 
 .footer{
 	background-color: black;
-	height: 200px;
+	height: 65px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+.footer .play{
+	line-height: 65px;
+
 }
