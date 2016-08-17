@@ -112,23 +112,20 @@ a{
 	background: #fff;
 }
 .service ul li{
-	width:50%;
+	width:45%;
 	float: left;
-	box-sizing: border-box;
 	border-left:1px solid #ececec;
 	border-bottom: 1px solid #ececec;
 }
 .service .service-left{
-	width:50%;
+	width:45%;
 	font-size: 0.6rem;
-	box-sizing: border-box;;
 	padding-top: 25px;
 	padding-left: 5px;
 	
 }
 .service .service-right{
-	width:50%;
+	width:43%;
 	padding: 5px;
-	box-sizing: border-box;
 
 }
