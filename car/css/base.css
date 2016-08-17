@@ -1,0 +1,97 @@
+*{
+	margin:0 ;
+	padding: 0;
+}
+
+ul li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.container{
+	max-width: 640px;
+	width: 100%;
+	margin:0 auto;
+	overflow: hidden;
+	height: auto;
+	position: relative;
+	font-family: "Microsoft YaHei";
+}
+
+.container img{
+	max-width: 100%;
+}
+
+.header .list{
+	height: 20px;
+	position: absolute;
+	z-index:10;
+	width: 100%;
+	bottom:10px;
+	text-align: center;
+}
+.header .list span{
+	color: #ac0209;
+	font-size: 12px;
+	text-align: center;
+}
+
+
+/*
+导航开始*/
+.nav-list ul li{
+	float: left;
+	width: 25%;
+}
+
+.nav-list ul li a{
+	display: block;
+	width: 80%;
+	margin:10px;
+}
+.nav-list ul li a div{
+	text-align: center;
+}
+
+.nav-list ul li a span{
+	display: block;
+	margin-top: 1em;
+	text-align: center;
+}
+
+.index-search{
+	padding: 10px 15px;
+	background: #eee;
+}
+.index-search .wrap{
+	border-radius: 5px;
+	padding: 10px;
+	background: #fff;
+	font-family: "Microsoft YaHei";
+	font-size: 0.8rem;
+	height: 1.5rem;
+}
+.index-search .wrap .left{
+	width:10%;
+	height: 20px;
+}
+
+.index-search .wrap .left img{
+	width:70%;
+	height: auto;
+}
+
+.index-search .wrap .right{
+	width:88%;
+}
+
